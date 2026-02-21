@@ -1,0 +1,16 @@
+{
+  "name": "atom-network-system",
+  "version": "1.0.0",
+  "description": "Atom Network System Discord bot (discord.js + slash commands)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  }
+}
